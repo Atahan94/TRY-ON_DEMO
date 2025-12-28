@@ -8,6 +8,8 @@ class View
     {
         extract($data);
 
-        require __DIR__ . '/../../views/' . $view . '.php';
+        $content = __DIR__ . '/../../views/' . $view . '.php';
+
+        require __DIR__ . '/../../views/layouts/app.php';
     }
 }
