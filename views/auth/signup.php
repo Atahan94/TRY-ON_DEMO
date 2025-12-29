@@ -21,10 +21,10 @@
                     <p>Create a new account</p>
                 </div>
 
-                <form id="signupForm" class="auth-form">
+                <form id="signupForm" class="auth-form" method="Post" action="/signup">
                     <div class="form-group">
                         <label for="fullname" class="form-label">Full Name</label>
-                        <input type="text" id="fullname" name="fullname" class="form-input" placeholder="Your Full Name"
+                        <input type="text" id="fullname" name="name" class="form-input" placeholder="Your Full Name"
                             required>
                         <span class="form-error">Full name must be at least 3 characters</span>
                     </div>

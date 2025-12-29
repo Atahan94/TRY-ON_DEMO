@@ -29,7 +29,7 @@ if (themeToggle) {
 const loginForm = document.getElementById('loginForm');
 if (loginForm) {
     loginForm.addEventListener('submit', (e) => {
-        e.preventDefault();
+        /* e.preventDefault(); */
 
         const email = document.getElementById('email');
         const password = document.getElementById('password');
@@ -55,9 +55,9 @@ if (loginForm) {
         if (isValid) {
             // Simulate login
             showLoading(e.target.querySelector('button[type="submit"]'));
-            setTimeout(() => {
-                window.location.href = 'homepage.html';
-            }, 1500);
+           /*  setTimeout(() => {
+                window.location.href = '/';
+            }, 1500); */
         }
     });
 }
@@ -66,7 +66,7 @@ if (loginForm) {
 const signupForm = document.getElementById('signupForm');
 if (signupForm) {
     signupForm.addEventListener('submit', (e) => {
-        e.preventDefault();
+        /* e.preventDefault(); */
 
         const fullname = document.getElementById('fullname');
         const email = document.getElementById('email');
@@ -116,10 +116,10 @@ if (signupForm) {
 
         if (isValid) {
             // Simulate signup
-            showLoading(e.target.querySelector('button[type="submit"]'));
+           /*  showLoading(e.target.querySelector('button[type="submit"]'));
             setTimeout(() => {
-                window.location.href = 'homepage.html';
-            }, 1500);
+                window.location.href = 'login';
+            }, 1500); */
         }
     });
 }

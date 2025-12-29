@@ -8,7 +8,6 @@ use Dotenv\Dotenv;
 $dotenv = Dotenv::createImmutable(dirname(__DIR__));
 $dotenv->load();
 
-echo $_ENV['APP_NAME'];
 
 $routes = require __DIR__ . '/../routes/web.php';
 

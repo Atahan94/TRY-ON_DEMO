@@ -31,7 +31,7 @@
                                 <a href="#" class="dropdown-item">⚙️ Settings</a>
                                 <a href="#" class="dropdown-item">📜 History</a>
                                 <div style="border-top: 1px solid var(--border-color); margin: 0.5rem 0;"></div>
-                                <a href="index.html" class="dropdown-item">🚪 Sign Out</a>
+                                <a href="/login" class="dropdown-item">🚪 Sign Out</a>
                             </div>
                         </div>
                     </div>

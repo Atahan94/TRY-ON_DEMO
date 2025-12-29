@@ -11,10 +11,11 @@ class HomeController extends Controller
     public function index()
     {
 
-        if (!isset($_SESSION['user_id'])) {
+        if (!isset($_SESSION['user_id'])) 
+        {
         header('Location: /login');
         exit;
-    }
+        }
 
         View::render('home');
     }
